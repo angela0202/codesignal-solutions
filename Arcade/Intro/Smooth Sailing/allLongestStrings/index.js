@@ -1,0 +1,1 @@
+const allLongestStrings = (arr) => arr.filter(el => el.length === Math.max(...arr.map(el => el.length)));
